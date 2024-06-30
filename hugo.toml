@@ -1,0 +1,19 @@
+baseURL = 'https://www.snekbot.com/static/blog/'
+languageCode = 'en-us'
+title = 'snek dev blog'
+theme = 'classic'
+
+# Enable this for tailwind in markdown files
+[markup.goldmark.renderer]
+unsafe=true
+
+# Add menu links to things from /content/ here (eg. markdown.md)
+[[menu.main]]
+name = "posts"
+url = "/posts/"
+weight = 1
+
+[[menu.main]]
+name = "about"
+url = "/about/"
+weight = 1
